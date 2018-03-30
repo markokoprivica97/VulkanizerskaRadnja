@@ -5,7 +5,7 @@ package gume;
  * Klasa koja predstavlja automobilsku gumu
  * 
  * @version 1.0
- * @author Marko Kastratovic
+ * @author Marko Koprivica
  * 
  */
 public class AutoGuma {
