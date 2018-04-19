@@ -117,6 +117,9 @@ public class AutoGuma {
 	 * Vraca String sa podacima o gumi
 	 */
 	@Override
+	/**
+	 * @return vraca String sa svim specifikacijama
+	 */
 	public String toString() {
 		return "AutoGuma [markaModel=" + markaModel + ", precnik=" + precnik + ", sirina=" + sirina + ", visina="
 				+ visina + "]";
@@ -124,6 +127,7 @@ public class AutoGuma {
 	/**
 	 * Uporedjuje 2 objekta klase auto guma po
 	 * atributima markaModel,precnik,sirina,visina
+	 * @return vraca true ako se porede dve identicne gume
 	 */
 	@Override
 	public boolean equals(Object obj) {

@@ -1,4 +1,4 @@
-package testgume.radnja;
+package gume.radnja;
 
 import static org.junit.Assert.*;
 
@@ -83,12 +83,13 @@ public class TestVulkanizerskaRadnja {
 		a.setSirina(220);
 		a.setVisina(45);
 		AutoGuma a1=new AutoGuma();
-		a.setMarkaModel("Mishelin Winter");
-		a.setPrecnik(19);
-		a.setSirina(220);
-		a.setVisina(45);
+		a1.setMarkaModel("Mishelin Winter");
+		a1.setPrecnik(19);
+		a1.setSirina(200);
+		a1.setVisina(45);
 		v.dodajGumu(a);
 		v.dodajGumu(a1);
+		
 		assertEquals(2, v.pronadjiGumu("Mishelin Winter").size());
 	}
 	

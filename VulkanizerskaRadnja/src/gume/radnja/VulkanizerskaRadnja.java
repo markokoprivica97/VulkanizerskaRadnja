@@ -1,11 +1,12 @@
 package gume.radnja;
+
+import java.util.LinkedList;
+import gume.AutoGuma;
 /**
+ * ovo je klasa vulkanizerskaradnja koja sadrzi potrebne metode za rad u samoj radnji
  * @author Marko Koprivica
  * @version 1.0
  */
-import java.util.LinkedList;
-import gume.AutoGuma;
-
 public class VulkanizerskaRadnja {
 	/**
 	 * Lista guma
